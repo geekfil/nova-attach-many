@@ -17,7 +17,7 @@
                     </div>
                 </div>
 
-                <div class="relative overflow-auto" :style="{ height: field.height, width: '99%', marginTop: '10px', maxHeight: '134px', minHeight: '44px' }">
+                <div class="relative overflow-auto" :style="{ height: field.height, width: '99%', marginTop: '10px, minHeight: '44px' }">
                     <div v-if="loading" class="flex justify-center items-center absolute pin z-50 bg-white">
                         <loader class="text-60" />
                     </div>
